@@ -1,0 +1,11 @@
+.Button{
+    color:whitesmoke;
+    font-size:xx-large;
+    font-style: oblique;
+    background-color: black;
+    justify-content: space-between;  
+}
+h1{
+    font-size: 35px;
+    font-style: italic;
+}

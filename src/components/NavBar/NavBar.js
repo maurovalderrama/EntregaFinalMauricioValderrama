@@ -1,13 +1,14 @@
 import CartWidget from '../CartWidget/CartWidget';
+import "../NavBar/NavBar.css";
 const NavBar = () => {
     return (
         <nav>
-            <h1>Venta de Skins</h1>
+            <h1>Venta de Skins de Armas de Valorant</h1>
             <div>
-                <button>Pistolas</button>
-                <button>Escopetas</button>
-                <button>Metralletas</button>
-                <button>Francotiradores</button>
+                <button className='Button'>Pistolas</button>
+                <button className='Button'>Escopetas</button>
+                <button className='Button'>Metralletas</button>
+                <button className='Button'>Francotiradores</button>
                 <CartWidget/>
             </div>
         </nav>
